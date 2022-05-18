@@ -1,0 +1,74 @@
+body
+{
+    background-image: linear-gradient(to bottom right,rgb(255, 134, 20), rgb(253, 68, 167), rgb(168, 69, 255));
+    height: 100vh;
+    text-align: center;
+}
+
+.inputs
+{
+    border-style: solid;
+    margin: 20px;
+    border-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    font-size: 18px;
+    color: white;
+    
+}
+
+#zip
+{
+    margin-left: -13px;
+    margin-right: 49px;
+}
+
+::placeholder
+{
+    color: white;
+    opacity: 0.5;
+}
+
+h1, #lab
+{
+    color: white;
+    font-family: Arial;
+}
+
+h1
+{
+    font-weight: 50;
+}
+
+#lab   
+{
+    
+    font-size: 18px;
+    
+}
+
+.inputs:focus
+{
+    outline: none;
+}
+
+#sub
+{
+    border: solid;
+    border-color: white;
+    background: none;
+    border-radius: 20px;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 20px;
+
+
+    
+}
+
